@@ -1,0 +1,22 @@
+# Default values for postgres
+postgresql:
+  image:
+    repository: postgres
+    tag: 13
+  standalone: false
+  cluster:
+    enabled: false
+    master:
+      replicas: 1
+    slaves:
+      replicas: 2
+  password:
+    generate: true
+  config:
+    database: mydatabase
+    username: myuser
+    port: 5432
+
+service:
+  type: ClusterIP
+  port: 5432

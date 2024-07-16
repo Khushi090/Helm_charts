@@ -100,3 +100,8 @@ sudo apt install -y VirtualBox
 minikube start --driver=docker
 ```
 ![image (16)](https://github.com/user-attachments/assets/3e982cd0-ecaa-49f1-af2f-767513fcb5f6)
+
+# Contact Information
+| Name            | Email Address                        |
+|-----------------|--------------------------------------|
+| Khushi Malhotra  | khushimalhotra0209@gmail.com |

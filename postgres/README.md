@@ -350,3 +350,36 @@ To enter the pod
 kubectl exec -it <pod_id> --namespace k8s -- /bin/bash
 ```
 
+```shell 
+postgres --version
+```
+
+```shell 
+env | grep postgres
+```
+
+```shell
+psql -h localhost -U <YOUR_USERNAME> -d  <YOUR_DATABASE_NAME>
+```
+
+![image (38)](https://github.com/user-attachments/assets/53e2dfb9-16ec-456d-8969-486cada6375a)
+
+
+```shell
+CREATE TABLE khushi (
+id SERIAL PRIMARY KEY,
+name VARCHAR(100)
+);
+```
+
+```shell
+INSERT INTO khushi (name) VALUES ('Alice'), ('Bob');
+```
+
+```shell
+SELECT * FROM khushi;
+```
+
+![image (39)](https://github.com/user-attachments/assets/c0b8b6e5-414f-4c9d-a82d-8c930d19df1e)
+
+

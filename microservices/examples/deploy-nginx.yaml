@@ -1,6 +1,6 @@
 global:
   namespace: "default"
-#  replicaCount: 5 
+  replicaCount: 5 
   fullnameOverride: "webapp"
 
 deployment:
